@@ -1,5 +1,5 @@
 import React from "react"
-import "../assets/font-awesome-4.7.0/css/font-awesome.css"
+import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 
 export default function Footer() { 
     return (
