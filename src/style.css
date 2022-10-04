@@ -8,7 +8,6 @@ body {
 #root {
     display: flex;
     justify-content: center;
-    align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 20px;
     background-color: rgb(15, 13, 13);
@@ -35,15 +34,23 @@ h2, h4 {
     color: white;
     padding: 0;
     margin-top: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: 0;
+    height: 15px;
 }
 
-.section-two {
+.about-section {
     text-align: left;
     margin-left: 20px;
 }
 
-.section-two > p {
+.about-section > p {
     font-size: 12px;
+}
+
+.about-section > h4 {
+    color: lightslategray;
 }
 
 p {
@@ -60,23 +67,25 @@ p {
 }
 
 .email-btn {
+    background-color: black;
+    color: white;
+}
+
+.email-btn:hover {
     background-color: white;
     color: black;
 }
 
-.email-btn:hover {
-    background-color: black;
-    color: white;
-}
-
 .footer-section {
     background-color: black;
+    border-radius: 0 0 10px 10px;
 }
 
 .footer-section > a {
     color: white;
-    padding: 0 10px;
+    padding: 0 13px;
     font-size: x-large;
+    border-radius: 5px;
 }
 
 .footer-section > a:hover {

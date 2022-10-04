@@ -1,14 +1,14 @@
 import React from "react"
-import Image from "./components/Image"
+import Info from "./components/Info"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
 
 export default function App() { 
     return (
         <div className="container">
-            <Image />
+            <Info />
             <Main />
-            <Footer />
+	        <Footer />
         </div>
     )
 }
